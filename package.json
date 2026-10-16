@@ -1,0 +1,15 @@
+{
+  "name": "issue-kanban",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A tiny kanban board that renders the open GitHub issues of one repo, split into To Do / In Progress by their status labels.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
